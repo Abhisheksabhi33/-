@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple"> Abhishek Rawat </span>
             from <span className="purple"> Ayodhya, India.</span>
-            <br />I am a junior year pursuing BTech in Computer Science and Engineering in Madan Mohan Malaviya University of Technology, Gorakhpur.
+            <br />I am a Final year pursuing BTech in Computer Science and Engineering in Madan Mohan Malaviya University of Technology, Gorakhpur.
             
             <br />
             <br />

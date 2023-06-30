@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/ur.pdf";
+import pdf from "../../Assets/../Assets/Abhishek_Rawat_Resume.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -14,9 +14,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 
   const resumeLink = ()=> {
-      return <div style={{ maxWidth: '100%', height:'auto' }} className="d-flex justify-content-center" >
-         <img src="https://res.cloudinary.com/dsxyzdqvo/image/upload/v1678346405/ur_page_zpva2w.jpg" alt="Resume" ></img>
-      </div>
+    
+      return <div style={{maxWidth: "60%", height: "auto", display: "flex", justifyContent: "center"}}>
+      <img src="https://res.cloudinary.com/dsxyzdqvo/image/upload/v1688166435/Abhishek_Rawat_Resume_page_fhwy5j.jpg" alt="Resume" style= {{maxWidth: "100%", height: "auto", display: "block", margin: "0 auto"}} />
+    </div>
+    
   }
 
 function ResumeNew() {
