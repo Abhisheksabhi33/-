@@ -14,27 +14,30 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with Coding and I have at least learnt
-              something, I think… 🤷‍♂️
+              I fell in love with Coding and I have at least learnt something, I
+              think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> C++, Javascript, ReactJS, NodeJS, Databases, Rest-APIs, Solidity. </b>
+                <b className="purple">
+                  {" "}
+                  C/C++, HTML,CSS, Javascript, Python, ReactJS, NodeJS, SQL,
+                  mondoDB, AWS, Rest-APIs, Blockchain-Technology, Solidity.{" "}
+                </b>
               </i>
               <br />
               <br />
               My field of Interest is &nbsp;
               <i>
-                <b className="purple"> Software Development </b> and
-                also in areas related to{" "}
+                <b className="purple"> Software Development </b> related to{" "}
                 <b className="purple">
-                  Full Stack Development, Blockchain, Cloud Computing, etc..
+                  Full Stack Development, Blockchain, DevOps and Cloud
+                  Computing.
                 </b>
               </i>
               <br />
@@ -49,7 +52,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js </b>
+                <b className="purple"> React.js , Vue.js , Angular.js</b>
               </i>
             </p>
           </Col>
